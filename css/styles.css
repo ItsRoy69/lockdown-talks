@@ -1,0 +1,212 @@
+body {
+  font-family: "Montserrat-bold";
+}
+
+#title {
+  background-color: #94d0cc;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+h1 {
+  color: #232323;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+}
+
+h2 {
+  font-size: 150%;
+  color: #480032;
+  font-weight: bold;
+  padding-bottom: 1em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #480032;
+  font-family: "Montserrat-Bold";
+  font-size: 1.5rem;
+}
+
+p {
+  color: #480032;
+  font-family: 'Bodoni Moda', serif;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 0 18px;
+  font-family: 'Stint Ultra Condensed', cursive;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: 'Mate SC', serif;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 100%;
+
+
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/* Icons */
+.icon {
+  color: #ff4c68;
+  margin: 1rem;
+}
+
+.icon:hover {
+  color: #ba135d;
+}
+
+/*Testimonials */
+#testimonials {
+
+  text-align: center;
+  background-color: #39a6a3;
+  color: #480032;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: 'Merriweather', serif;
+}
+
+h4 {
+  color: #232323;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.em{
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.testimonial-image{
+  width:50%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #39a6a3;
+  text-align: center;
+
+}
+
+.press-logo {
+  width: 8%;
+  margin:20px 20px 50px;
+}
+
+
+/* Pricing */
+
+h5{
+  color: #480032;
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 1rem;
+
+}
+
+li{
+  font-family: 'Karla', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#pricing{
+  padding: 100px;
+  background-color: #deedf0;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+/* CTA Section */
+
+#cta{
+  background-color: #00ead3;
+  color: #fff;
+  padding: 10% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+  font-family: 'Karla', sans-serif;
+  font-family: 'Roboto Mono-bold', monospace;
+  font-size: 2.5rem;
+  line-height: 1.5;
+
+}
+
+
+@media (max-width: 990px)
+{
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+/* Footer Section*/
+
+#footer{
+
+  padding: 2% 15%;
+  text-align: center;
+}
+
+.social-icon
+{
+  margin: 20px 10px;
+}
+em{
+  text-align: center;
+}
